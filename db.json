@@ -9,14 +9,13 @@
         {
             "status": "Authenticated",
             "user": {
-                "username": "ashley.akua",
-                "email": "ashley.akua@onelogin.com",
-                "firstname": "Ashley",
+                "username": "tienthanh",
+                "email": "thanh@gmail.com",
+                "firstname": "Tien",
                 "id": 88888888,
-                "lastname": "Akua"
+                "lastname": "Thanh"
             },
             "return_to_url": null,
-            "expires_at": "2016/01/07 05:56:21 +0000",
             "session_token": "9x8869x31134x7906x6x54474x21x18xxx90857x"
         }
     ]
