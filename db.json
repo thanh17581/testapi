@@ -1,22 +1,19 @@
-{
-    "status": {
-        "type": "success",
-        "message": "Success",
-        "code": 200,
-        "error": false
-    },
-    "data": [
-        {
-            "status": "Authenticated",
-            "user": {
-                "username": "tienthanh",
-                "email": "thanh@gmail.com",
-                "firstname": "Tien",
-                "id": 88888888,
-                "lastname": "Thanh"
-            },
-            "return_to_url": null,
-            "session_token": "9x8869x31134x7906x6x54474x21x18xxx90857x"
-        }
-    ]
+[
+{"type":"header","version":"5.0.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"db"},
+{"type":"table","name":"account","database":"db","data":
+[
+{"id":"1","username":"thanh","password":"thanh","role_ID":"1"},
+{"id":"2","username":"khai","password":"khai","role_ID":"1"},
+{"id":"3","username":"duong","password":"duongpt","role_ID":"2"},
+{"id":"4","username":"tung","password":"tungdt","role_ID":"3"}
+]
 }
+,{"type":"table","name":"role","database":"db","data":
+[
+{"roleID":"1","role_name":"Student"},
+{"roleID":"2","role_name":"Tutor"},
+{"roleID":"3","role_name":"Authorized Staff"}
+]
+}
+]
